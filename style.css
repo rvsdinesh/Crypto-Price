@@ -1,0 +1,74 @@
+body{
+    width: 300px;
+    height: 410px;
+    background-color: rgb(188, 224, 255); 
+    justify-content: center;
+     
+}
+#heading{
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#refreshButton{
+    background-image: linear-gradient( 
+        to right, #a394fa 0%, #dd2476 51%, #a394fa 100% );
+
+}
+#refreshButton{
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin:10px;
+    padding: 0.7rem 1.34rem;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #eee;
+    background-size: 200% auto;
+    border: none;
+    
+}
+#refreshButton:hover{
+    background-position: right center;
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#refreshButton:active{
+    transform: translateY(5px);
+}
+
+#content{
+    border-radius: 20px;
+    background-color: #d5eefffa; 
+    padding-right: 4px;
+    
+}
+
+div{
+    padding: 2px 2px 0.5px 4px;
+}
+
+tr{
+    padding-top: 2px;
+    
+}
+
+th{
+    font-size: 16px;
+    padding: 0px 4px 2px 4px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+td{
+    font-size: 16px;
+    padding: 0px 9px 2px 4px;
+    font-style:initial;
+}
+
